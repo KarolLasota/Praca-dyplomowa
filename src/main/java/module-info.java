@@ -7,4 +7,9 @@ module com.lasota.praca_dyplomowa {
 
     opens com.lasota.praca_dyplomowa to javafx.fxml;
     exports com.lasota.praca_dyplomowa;
+    exports com.lasota.praca_dyplomowa.classes;
+    opens com.lasota.praca_dyplomowa.classes to javafx.fxml;
+
+
+
 }
